@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JIO DApp</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+</head>
+<body class="container">
+  <h1>A Simple JIO Voting Application</h1>
+  <div class="table-responsive">
+    <table class="table table-bordered" style="border:10px ;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+      <thead>
+        <tr>
+          <th>Candidate</th>
+          <th>Votes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Sachit</td>
+          <td id="candidate-1"></td>
+        </tr>
+        <tr>
+          <td>Deepanshu</td>
+          <td id="candidate-2"></td>
+        </tr>
+        <tr>
+          <td>Mansi</td>
+          <td id="candidate-3"></td>
+        </tr>
+        <tr>
+          <td>Nishkarsh</td>
+          <td id="candidate-4"></td>
+        </tr>
+        <tr>
+          <td>Akshay</td>
+          <td id="candidate-5"></td>
+        </tr>
+        <tr>
+          <td>Mandar</td>
+          <td id="candidate-6"></td>
+        </tr>
+        <tr>
+          <td>Shreyas</td>
+          <td id="candidate-7"></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <select type="text" id="candidate">
+    <option value="Sachit">Sachit</option>
+    <option value="Deepanshu">Deepanshu</option>
+    <option value="Mansi">Mansi</option>
+    <option value="Nishkarsh">Nishkarsh</option>
+    <option value="Akshay">Akshay</option>
+    <option value="Mandar">Mandar</option>
+    <option value="Shreyas">Shreyas</option>
+    </select>
+  </select>
+  <a href="#" onclick="voteForCandidate()" class="btn btn-primary">Vote</a>
+</body>
+<script src="https://cdn.rawgit.com/ethereum/web3.js/develop/dist/web3.js"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+<script src="./app.js"></script>
+</html>
