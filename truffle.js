@@ -1,8 +1,8 @@
 // Allows us to use ES6 in our migrations and tests.
 var HDWalletProvider = require("truffle-hdwallet-provider");
 
-var infura_apikey = "WqDFeWbMMM5qFzon2C7O";
-var mnemonic = "lemon waste spend three remove render name fiber yard issue minute embark";
+var infura_apikey = "infura_apikey";
+var mnemonic = "mnemonic";
 
 /*
 require('babel-register')
